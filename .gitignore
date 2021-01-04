@@ -128,5 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# misc
-.vscode/
+# Misc
+**/*.DS_Store
+.vscode
+
+# Python/Django
+env
+db.sqlite3
+**/__pycache__
+static
