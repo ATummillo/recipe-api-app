@@ -133,7 +133,6 @@ dmypy.json
 .vscode
 
 # Python/Django
-env
 db.sqlite3
 **/__pycache__
 static
