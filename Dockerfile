@@ -12,9 +12,11 @@ RUN apk del .tmp-build-deps
 
 WORKDIR /app
 COPY ./app /app
+COPY ./deployment-tasks.sh /app
 
 RUN mkdir -p /vol/web/media
 RUN mkdir -p /vol/web/static
+RUN python manage.py collectstatic --no-input
 RUN adduser -D myuser
 RUN chown -R myuser:myuser /vol/
 RUN chmod -R 755 /vol/web
