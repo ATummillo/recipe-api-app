@@ -1,6 +1,6 @@
 # Recipe API App
 
-![Image](https://drive.google.com/uc?export=view&id=1O85ttUyNZKZ8TQYkQXi2GihUfQ4MU1Xd)
+![Image](./recipe-api-app_README.png)
 
 > A Postgres backed REST API built using Django REST Framework.
 
@@ -21,7 +21,7 @@
 
 ## Description
 
-This project is from the Udemy course "Build a Backend REST API with Python and Django - Advanced" by Mark Winterbottom and Brooke Rutherford. It is a REST API that can store and list recipes, their ingredients, and any associated tags. It requires user authentication and is most easily interacted with via the default Django REST Framework pages. (I recommend using an extension like Chrome's [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) to handle setting the HTTP Authorization header)
+This project is from the Udemy course "Build a Backend REST API with Python and Django - Advanced" by Mark Winterbottom and Brooke Rutherford. It is a REST API that can store and list recipes, their ingredients, and any associated tags. It requires user authentication and is most easily interacted with via the default Django REST Framework pages. (I recommend using an extension like Chrome's [ModHeader](./recipe-api-app_ModHeaderEx.png) to handle setting the HTTP Authorization header)
 
 #### Technologies
 
